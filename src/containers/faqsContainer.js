@@ -15,13 +15,14 @@ export function FaqsContainer() {
       <Accordion.Item />
 
       <OptForm>
-        dasdsa
-        <OptForm.Input placeholder="Email address" />
-        <OptForm.Button>Try it now</OptForm.Button>
         <OptForm.Text>
           Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách
           thành viên của bạn.
         </OptForm.Text>
+
+        <OptForm.Break />
+        <OptForm.Input placeholder="Địa chỉ email" />
+        <OptForm.Button>Bắt đầu</OptForm.Button>
       </OptForm>
     </Accordion>
   );
